@@ -35,7 +35,7 @@
 
     </LinearLayout>
 
-    <!-- Tabs scrollables -->
+    <!-- Tabs scrollables (Sin atributos que fallen) -->
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
@@ -43,8 +43,6 @@
         android:background="@color/header_bg"
         app:tabMode="scrollable"
         app:tabGravity="start"
-        app:tabSelectedTextColor="@color/accent"
-        app:tabUnselectedTextColor="@color/text_secondary"
         app:tabIndicatorColor="@color/accent"
         app:tabIndicatorHeight="2dp" />
 
