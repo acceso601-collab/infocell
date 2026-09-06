@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#0a0a0f">
+    android:background="@color/background">
 
     <!-- Header -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:background="#0d1117"
+        android:background="@color/header_bg"
         android:gravity="center_vertical"
         android:paddingHorizontal="16dp"
         android:orientation="horizontal">
@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="📊 InfoCell"
-            android:textColor="#00E5FF"
+            android:textColor="@color/accent"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="⟳ Auto"
-            android:textColor="#4a5568"
+            android:textColor="@color/text_secondary"
             android:textSize="12sp" />
 
     </LinearLayout>
@@ -40,12 +40,12 @@
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#0d1117"
+        android:background="@color/header_bg"
         app:tabMode="scrollable"
         app:tabGravity="start"
-        app:tabSelectedTextColor="#00E5FF"
-        app:tabUnselectedTextColor="#4a5568"
-        app:tabIndicatorColor="#00E5FF"
+        app:tabSelectedTextColor="@color/accent"
+        app:tabUnselectedTextColor="@color/text_secondary"
+        app:tabIndicatorColor="@color/accent"
         app:tabIndicatorHeight="2dp" />
 
     <!-- Contenido -->
