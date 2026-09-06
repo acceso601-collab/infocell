@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#0a0a0f</color>
+    <color name="header_bg">#0d1117</color>
+    <color name="accent">#00E5FF</color>
+    <color name="text_secondary">#4a5568</color>
+    <color name="good">#4CAF50</color>
+    <color name="warn">#FF9800</color>
+</resources>

@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvHeader"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:paddingTop="16dp"
-    android:paddingBottom="4dp"
     android:paddingHorizontal="16dp"
-    android:background="#0a0a0f">
-
-    <TextView
-        android:id="@+id/tvHeader"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#00E5FF"
-        android:textSize="11sp"
-        android:textStyle="bold"
-        android:letterSpacing="0.15"
-        android:alpha="0.7" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#1e2d40"
-        android:layout_marginTop="4dp" />
-
-</LinearLayout>
+    android:paddingTop="24dp"
+    android:paddingBottom="8dp"
+    android:textColor="@color/accent"
+    android:textSize="18sp"
+    android:textStyle="bold" />
